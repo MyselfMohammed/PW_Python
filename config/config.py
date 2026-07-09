@@ -1,0 +1,1 @@
+URL_ORANGE_HRM = "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
