@@ -1,17 +1,21 @@
 from playwright.sync_api import Page
-from config.config import BASE_URL
 
 class LoginPage():
     
     def __init__(self, page:Page):
         self.page = page
-        self.input_username = page.get_by_role("textbox", name = "username")
-        self.input_password = page.get_by_role("textbox", name = "password")
-        self.button_login = page.get_by_role("button", name = "login")
         
-    def navigate(self):
-        self.page.goto(BASE_URL)
+        self.input_username = page.get_by_role("textbox", name = "Username")
+        self.input_password = page.get_by_role("textbox", name = "Password")
+        self.button_login = page.get_by_role("button", name = "Login")
         
+        # self.input_username = page.locator('input[name="username"]')
+        # self.input_password = page.locator('input[name="password"]')
+        # self.button_login = page.get_by_role("button", name="Login")
+    
+    def navigate(self, url: str):
+        self.page.goto(url)
+    
     def enter_username(self, username:str):
         self.input_username.fill(username)
         
