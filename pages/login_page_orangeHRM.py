@@ -1,5 +1,5 @@
 from playwright.sync_api import Page
-from config.config import URL_ORANGE_HRM
+from config.config import BASE_URL
 
 class LoginPage():
     
@@ -10,7 +10,7 @@ class LoginPage():
         self.button_login = page.get_by_role("button", name = "login")
         
     def navigate(self):
-        self.page.goto(URL_ORANGE_HRM)
+        self.page.goto(BASE_URL)
         
     def enter_username(self, username:str):
         self.input_username.fill(username)
