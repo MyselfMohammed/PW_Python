@@ -1,1 +1,1 @@
-# from fixtures.browser_fixture import
+pytest_plugins = ["fixture.browser_fixture"]
