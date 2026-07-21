@@ -1,0 +1,11 @@
+[32mINFO    [0m utils.logger:test_employee_creation.py:39 Login Successful
+[32mINFO    [0m utils.logger:test_employee_creation.py:55 ============================================================
+[32mINFO    [0m utils.logger:test_employee_creation.py:56 Processing Employee : EMP101
+[32mINFO    [0m utils.logger:test_employee_creation.py:88 EMP101 Created Successfully
+[32mINFO    [0m utils.logger:test_employee_creation.py:55 ============================================================
+[32mINFO    [0m utils.logger:test_employee_creation.py:56 Processing Employee : EMP102
+[32mINFO    [0m utils.logger:test_employee_creation.py:88 EMP102 Created Successfully
+[32mINFO    [0m utils.logger:test_employee_creation.py:55 ============================================================
+[32mINFO    [0m utils.logger:test_employee_creation.py:56 Processing Employee : EMP103
+[32mINFO    [0m utils.logger:test_employee_creation.py:88 EMP103 Created Successfully
+[32mINFO    [0m utils.logger:test_employee_creation.py:109 All Employees Processed Successfully

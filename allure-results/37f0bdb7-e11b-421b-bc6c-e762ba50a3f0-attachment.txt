@@ -1,0 +1,5 @@
+[32mINFO    [0m utils.logger:test_employee_creation.py:39 Login Successful
+[32mINFO    [0m utils.logger:test_employee_creation.py:52 EMP1 already processed. Skipping.
+[32mINFO    [0m utils.logger:test_employee_creation.py:52 EMP2 already processed. Skipping.
+[32mINFO    [0m utils.logger:test_employee_creation.py:52 EMP3 already processed. Skipping.
+[32mINFO    [0m utils.logger:test_employee_creation.py:109 All Employees Processed Successfully

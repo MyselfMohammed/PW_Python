@@ -1,13 +1,20 @@
-from dotenv import load_dotenv
-from pathlib import Path
 import os
 
-load_dotenv(Path(__file__).parent / ".env")
+from dotenv import load_dotenv
 
-BASE_URL = os.getenv("BASE_URL")
-USERNAME = os.getenv("APP_USERNAME")
-PASSWORD = os.getenv("APP_PASSWORD")
+load_dotenv()
 
-HEADLESS = os.getenv("HEADLESS", "False").lower() == "true"
-SLOW_MO = int(os.getenv("SLOW_MO", 0))
-TIMEOUT = int(os.getenv("TIMEOUT", 100000))
+
+class Config:
+
+    BASE_URL = os.getenv("BASE_URL")
+
+    USERNAME = os.getenv("APP_USERNAME")
+
+    PASSWORD = os.getenv("APP_PASSWORD")
+
+    TIMEOUT = int(os.getenv("TIMEOUT"))
+    
+    SLOW_MO = int(os.getenv("SLOW_MO", 0))
+
+    HEADLESS = os.getenv("HEADLESS").lower() == "true"

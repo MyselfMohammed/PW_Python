@@ -1,0 +1,1 @@
+{"uuid": "d95fbafe-6b23-4fe8-8115-8245a2567371", "children": ["bbb09f73-068b-4d4f-8086-f06fadf7f389"], "befores": [{"name": "new_context", "status": "passed", "start": 1784646449444, "stop": 1784646449444}], "afters": [{"name": "new_context::1", "start": 1784646612637}, {"name": "new_context::<lambda>", "start": 1784646618296}], "start": 1784646449444, "stop": 1784646618296}
